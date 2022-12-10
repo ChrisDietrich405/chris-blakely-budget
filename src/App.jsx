@@ -5,9 +5,9 @@ import Remaining from "./Remaining";
 import ExpenseTotal from "./ExpenseTotal";
 import ExpenseList from "./ExpenseList";
 import ExpenseForm from "./ExpenseForm";
+import "./App.css";
 const App = () => {
   return (
-    
     <div className="container">
       <h1 className="mt-3">My Budget Planner</h1>
       <div className="row mt-3">
