@@ -13,6 +13,15 @@ const budgetReducer = (state, action) => {
                 ...state,
                 expenses: state.expenses.filter((expense) => expense.id !== action.payload)
             }
+        case "EDIT_EXPENSE": 
+            return {
+              ...state
+            }
+        case "SET_BUDGET":
+            return {
+              ...state,
+              budget: action.payload
+            }
         default:
             return state
     }
